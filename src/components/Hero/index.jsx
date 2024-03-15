@@ -1,5 +1,4 @@
 import "./hero.css"
-import heroimg from "../../assets/img/heroimg.png"
 
 export const Hero = () => {
     return (
@@ -9,20 +8,18 @@ export const Hero = () => {
                     <div className="hero-inner">
                         <div className="hero-box">
                             <p className="hero-parfume">
-                                Our Quality Perfumes
+                                Sweet fun, full of milk.
                             </p>
                             <div className="hero-text-box">
                                 <div className="hero-h1">
                                     <h1 className="hero-title">
-                                        Eng arzon va sifatli Parfyumeriyalarni faqat bizning kompaniyada topishingiz!
+                                        Feel inside cold with our delicious ice-cream.
                                     </h1>
                                 </div>
                                 <div className="hero-p">
-
                                     <p className="hero-text">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                                        Hic perspiciatis quae itaque exercitationem unde. Quia repellendus voluptatibus,
-                                        sapiente a vitae magnam non dolores rem illo assumenda aut ratione!
+                                        Some food has looked so awful that it's looked like something that the dog's brought home, 
+                                        yet after one mouthful I've been left eating my thoughts, my words.
                                     </p>
                                 </div>
                             </div>
@@ -30,7 +27,6 @@ export const Hero = () => {
                                 Buy Now
                             </button>
                         </div>
-                        <img src={heroimg} className="heroimg" alt="" width={550} height={625} />
                     </div>
                 </div>
             </section>

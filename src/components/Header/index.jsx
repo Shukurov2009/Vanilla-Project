@@ -1,13 +1,13 @@
 import "./header.css"
-import logo from "../../assets/img/oriflamelogo.png"
+import logo from "../../assets/img/vanillaLogo.png"
 
 export const Header = () => {
     return (
         <>
-            <header className="header">
+            <header className="header" bgcolor="##fbf0f4">
                 <div className="container">
                     <div className="header-inner">
-                        <a href="https://uz.oriflame.com/men/?count=48" className="header-logo-link">
+                        <a href="#" className="header-logo-link">
                             <img src={logo} alt="" className="header-logo" width={80} height={80} />
                         </a>
                         <nav className="header-navigation">
