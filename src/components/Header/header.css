@@ -6,19 +6,11 @@
     justify-content: space-between;
 }
 
-.header-logo-link {}
-
-.header-logo {}
-
-.header-navigation {}
-
 .header-list {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-
-.header-item {}
 
 .header-link {
     color: #150101;

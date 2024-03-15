@@ -4,7 +4,7 @@ import logo from "../../assets/img/vanillaLogo.png"
 export const Header = () => {
     return (
         <>
-            <header className="header" bgcolor="#fbf0f4">
+            <header className="header">
                 <div className="container">
                     <div className="header-inner">
                         <a href="#" className="header-logo-link">

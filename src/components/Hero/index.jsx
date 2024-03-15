@@ -1,4 +1,5 @@
 import "./hero.css"
+import heroimg from "../../assets/img/heroimg.png"
 
 export const Hero = () => {
     return (
@@ -7,7 +8,7 @@ export const Hero = () => {
                 <div className="container">
                     <div className="hero-inner">
                         <div className="hero-box">
-                            <p className="hero-parfume">
+                            <p className="hero-sweet">
                                 Sweet fun, full of milk.
                             </p>
                             <div className="hero-text-box">
@@ -27,6 +28,7 @@ export const Hero = () => {
                                 Buy Now
                             </button>
                         </div>
+                            <img src={heroimg} alt="" className="hero-image" />
                     </div>
                 </div>
             </section>
