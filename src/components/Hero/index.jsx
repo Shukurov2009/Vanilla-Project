@@ -28,7 +28,7 @@ export const Hero = () => {
                                 Buy Now
                             </button>
                         </div>
-                            <img src={heroimg} alt="" className="hero-image" />
+                            <img src={heroimg} alt="" className="hero-image" width={700}/>
                     </div>
                 </div>
             </section>
