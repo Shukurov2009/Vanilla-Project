@@ -4,7 +4,7 @@ import logo from "../../assets/img/vanillaLogo.png"
 export const Header = () => {
     return (
         <>
-            <header className="header" bgcolor="##fbf0f4">
+            <header className="header" bgcolor="#fbf0f4">
                 <div className="container">
                     <div className="header-inner">
                         <a href="#" className="header-logo-link">
@@ -14,27 +14,27 @@ export const Header = () => {
                             <ul className="header-list">
                                 <li className="header-item">
                                     <a href="#" className="header-link">
-                                        Home
+                                        Bosh sahifa
                                     </a>
                                 </li>
                                 <li className="header-item">
                                     <a href="#" className="header-link">
-                                        Product
+                                        Maxsulotlar
                                     </a>
                                 </li>
                                 <li className="header-item">
                                     <a href="#" className="header-link">
-                                        Pricing
+                                        Narxlar
                                     </a>
                                 </li>
                                 <li className="header-item">
                                     <a href="#" className="header-link">
-                                        Testimonials
+                                        Guvoxlar
                                     </a>
                                 </li>
                                 <li className="header-item">
                                     <a href="#" className="header-link">
-                                        Contact Us
+                                        Biz biln bog'lanish
                                     </a>
                                 </li>
                             </ul>

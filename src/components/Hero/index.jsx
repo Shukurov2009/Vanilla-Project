@@ -13,13 +13,13 @@ export const Hero = () => {
                             <div className="hero-text-box">
                                 <div className="hero-h1">
                                     <h1 className="hero-title">
-                                        Feel inside cold with our delicious ice-cream.
+                                    Bizning mazali muzqaymoq bilan ichingizda sovuq his eting.
                                     </h1>
                                 </div>
                                 <div className="hero-p">
                                     <p className="hero-text">
-                                        Some food has looked so awful that it's looked like something that the dog's brought home, 
-                                        yet after one mouthful I've been left eating my thoughts, my words.
+                                        Ba'zi ovqatlar shunchalik dahshatli ko'rindiki, it uyga olib kelgan narsaga o'xshaydi.
+                                        hali bir og'iz og'izdan so'ng men o'z fikrlarimni, so'zlarimni yeb qo'ydim.
                                     </p>
                                 </div>
                             </div>
