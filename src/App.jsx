@@ -2,8 +2,8 @@ import { Apps } from "./components/Apps"
 import { Header } from "./components/Header"
 import { Hero } from "./components/Hero"
 import { Product2 } from "./components/Product2"
-import { Product } from "./components/Products"
 import { Services } from "./components/Services"
+import { Products } from './components/Products/index';
 
 function App() {
 
@@ -13,7 +13,7 @@ function App() {
       <main>
       <Hero/>
       <Services/>
-      <Product/>
+      <Products/>
       <Product2/>
       <Apps/>
       </main>

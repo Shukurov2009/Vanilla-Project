@@ -33,7 +33,7 @@
     padding-left: 50px;
     padding-right: 50px;
     background-color: #D23166;
-    border-radius: 2px solid #D23166;
+    border: 2px solid #D23166;
     transition: .1s;
     font-size: 15px;
     border-radius: 5px;
@@ -42,6 +42,6 @@
 }
 
 .header-button:hover {
-    background-color: #fafafa;
+    background-color: transparent;
     color: #D23166;
 }
