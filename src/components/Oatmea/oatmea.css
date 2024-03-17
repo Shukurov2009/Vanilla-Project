@@ -1,0 +1,61 @@
+.oatmea {
+    background-color: #F8EDF0;
+}
+
+.oatmea-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.oatmea-box {}
+
+.oatmea-text-box {}
+
+.oatmea-title-box {
+    width: 360px;
+}
+
+.oatmea-title {
+    font-family: Hind Madurai;
+    font-size: 44px;
+    font-weight: 700;
+    color: #150101;
+}
+
+.oatmea-p-box {
+    width: 442px;
+    padding-top: 25px;
+}
+
+.oatmea-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #705f61;
+}
+
+.oatmea-btn-box {
+    padding-top: 25px;
+}
+
+.oatmea-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: 2px solid #D64374;
+    background-color: #D64374;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    transition: .1s;
+}
+
+.oatmea-btn:hover {
+    background-color: transparent;
+    color: #D64374;
+}
+
+.oatmea-img {}
