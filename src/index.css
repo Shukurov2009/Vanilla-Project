@@ -16,4 +16,5 @@ a {
 .container {
   max-width: 1120px;
   margin: 0 auto;
+  border: 1px solid #00000008
 }
