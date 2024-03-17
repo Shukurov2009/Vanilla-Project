@@ -4,6 +4,7 @@ import { Hero } from "./components/Hero"
 import { Product2 } from "./components/Product2"
 import { Services } from "./components/Services"
 import { Products } from './components/Products/index';
+import { Input } from "./components/Input"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Products/>
       <Product2/>
       <Apps/>
+      <Input/>
       </main>
     </>
   )

@@ -1,0 +1,49 @@
+.contact-inner {
+    margin-top: 100px;
+
+}
+.contact-big-text {
+    font-family: Roboto;
+font-size: 44px;
+font-weight: 500;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+color: #000000;
+width: 522px;
+margin-left: auto;
+margin-right: auto;
+}
+.input-box {
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.input {
+    width: 303px;
+height: 74px;
+top: 5062px;
+left: 482px;
+border-radius: 5;   
+border: 1;
+margin-left: 20px;
+}
+.input:nth-child(1){
+    margin-left: 0;
+}
+.box-input{
+    width: 492px;
+height: 74px;
+top: 5173px;
+left: 482px;;
+border-radius: 5;   
+border: 1   ;
+
+}
+.inp-btn {
+    width: 134px;
+height: 74px;
+top: 5173px;
+left: 985px;
+border-radius: 5;   
+background: #D64374;
+}
