@@ -1,4 +1,3 @@
-import React from "react";
 import "./product2.css";
 import person from "../../assets/img/person.png";
 import right from "../../assets/img/right-arrow 2.png";
@@ -28,9 +27,9 @@ export const Product2 = () => {
                     <p className="product2-list-mini-text">AMIRICAN</p>
                   </div>
                   <p className="product2-list-big-text">
-                    Thanks a lot for the prompt service. Really appreciate.
-                    Excellence taste in Every Bite.Add a joy of best Taste.
-                    Foodie Moments.
+                    Tezkor xizmat uchun katta rahmat. Haqiqatan ham qadrlang.
+                    Har bir luqmada ajoyib ta'm. Eng zo'r ta'm quvonchini qo'shing.
+                    Taomli lahzalar.
                   </p>
                   <li className="product2-mini-list">
                     <img
