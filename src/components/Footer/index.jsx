@@ -1,92 +1,121 @@
-import React from 'react'
 import "./footer.css"
-import pollar from "../../assets/img/pollar.png"
+import vanilla from "../../assets/img/vanillaLogo.png"
 import insta from "../../assets/img/insta.png"
 import p from "../../assets/img/p.png"
 import master from "../../assets/img/master.png"
 import visa from "../../assets/img/visa.png"
+import facebook from "../../assets/img/facebook.png"
+import twitter from "../../assets/img/twitter.png"
+import linkedin from "../../assets/img/linkedin.png"
+
 
 export const Footer = () => {
-  return (
-    <>
-    <section>
-        <div className="container">
-            <div className="footer-inner">
-                <ul className="footer-list">
-                <div className="footer-box">
-                <img src={pollar} alt="" className="footer-img" width={79} height={79}/>
-                </div>
-                    <li className="footer-item">
-                        <p className="footer-list-big-text">
-                        Some food has looked so awful that it's looked like something that the dog's brought home.
-                        </p>
-                        <p className="footer-list-mini-text-3">
-                        Fllow Us
-                        </p>
-                       <img src={insta} alt="" className="footer-item-img" width={90} height={15}/>
-                    </li>
-                </ul>
-
-                <ul className="footer-list">
-                    <li className="footer-item">
-                        <p className="footer-list-mini-text">
-                        Home
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Product
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Blog
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Pricing
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Testimonials
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Contact Us
-                        </p>
-                    </li>
-                </ul>
-
-                <ul className="footer-list">
-                    <li className="footer-item">
-                        <p className="footer-list-mini-text">
-                        Delivery Information
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Privacy Policy
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Terms & Condition
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Search Terms
-                        </p>
-                        <p className="footer-list-mini-text">
-                        Order & Return
-                        </p>
-                    </li>
-                </ul>
-
-                <ul className="footer-list-3">
-                    <li className="footer-item">
-                        <p className="footer-list-mini-text-4">
-                        Newsletter
-                        </p>
-                        <div className="footer-item-box">
-                        <input type="text" className="footer-input" placeholder='Your Email'/>
-                        <button className="footer-btn">Subscribe</button>
+    return (
+        <>
+            <footer className="footer">
+                <div className="container">
+                    <div className="footer-inner">
+                        <div className="footer-first-box">
+                            <img src={vanilla} alt="" className="footer-logo" width={80} height={80} />
+                            <ul className="footer-first-box">
+                                <div className="footer-first-box-text-box">
+                                    <p className="footer-first-box-text">
+                                        Some food has looked so awful that it's looked
+                                        like something that the dog's brought home.
+                                    </p>
+                                </div>
+                                <div className="footer-first-box-link-box">
+                                    <a href="#" className="footer-first-box-link">
+                                        Follow Us
+                                    </a>
+                                </div>
+                            </ul>
+                            <div className="footer-icon-box">
+                                <img src={insta} alt="" className="footer-insta" />
+                            </div>
                         </div>
-                       <img src={p} alt="img" className="footer-item-img" width={19} height={22}/>
-                       <img src={master} alt="img" className="footer-item-img" width={34} height={20}/>
-                       <img src={visa} alt="img" className="footer-item-img" width={47} height={15}/>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    </>
-  )
+                        <div className="footer-first-list-box">
+                            <ul className="footer-first-list">
+                                <li className="li footer-first-item">
+                                    <a href="#" className="footer-first-link">
+                                        Home
+                                    </a>
+                                </li>
+                                <li className="footer-first-item">
+                                    <a href="#" className="footer-first-link">
+                                        Product
+                                    </a>
+                                </li>
+                                <li className="li footer-first-item">
+                                    <a href="#" className="footer-first-link">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li className="li footer-first-item">
+                                    <a href="#" className="footer-first-link">
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li className="li footer-first-item">
+                                    <a href="#" className="footer-first-link">
+                                        Testimonials
+                                    </a>
+                                </li>
+                                <li className="li footer-first-item">
+                                    <a href="#" className="footer-first-link">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="footer-second-list-box">
+                            <ul className="footer-second-list">
+                                <li className="footer-second-item">
+                                    <a href="#" className="footer-second-link">
+                                        Delivery Information
+                                    </a>
+                                </li>
+                                <li className="footer-second-item">
+                                    <a href="#" className="footer-second-link">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                                <li className="footer-second-item">
+                                    <a href="#" className="footer-second-link">
+                                        Terms & Condition
+                                    </a>
+                                </li>
+                                <li className="footer-second-item">
+                                    <a href="#" className="footer-second-link">
+                                        Search Terms
+                                    </a>
+                                </li>
+                                <li className="footer-second-item">
+                                    <a href="#" className="footer-second-link">
+                                        Order & Return
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="newsletter-box">
+                            <h3 className="footer-newsletter-title">
+                                Newsletter
+                            </h3>
+                            <div className="inp-and-btn">
+                                <input type="email" className="footer-newsletter-inp" placeholder="Your Email"/>
+                                <button className="footer-newsletter-btn">
+                                    Subcribe
+                                </button>
+                            </div>
+                            <div className="footer-newsletter-icon-box">
+                                <img src={p} alt="" className="newsltter-pp" />
+                                <img src={master} alt="" className="newsltter-pp" />
+                                <img src={visa} alt="" className="newsltter-pp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </>
+    )
 }
