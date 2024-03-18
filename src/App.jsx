@@ -6,6 +6,7 @@ import { Services } from "./components/Services"
 import { Products } from './components/Products/index';
 import { Oatmea } from "./components/Oatmea";
 import { Input } from "./components/Input"
+import { Footer } from "./components/Footer"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Apps/>
       <Input/>
       </main>
+      <Footer/>
     </>
   )
 }
