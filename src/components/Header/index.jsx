@@ -8,7 +8,7 @@ export const Header = () => {
                 <div className="container">
                     <div className="header-inner">
                         <a href="#" className="header-logo-link">
-                            <img src={logo} alt="" className="header-logo" width={80} height={80} />
+                            <img src={logo} alt="logo img" className="header-logo" width={80} height={80} />
                         </a>
                         <nav className="header-navigation">
                             <ul className="header-list">

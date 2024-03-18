@@ -47,3 +47,58 @@
     border: 2px solid #D23166;
     margin-top: 55px;
 }
+
+@media(max-width:1150px){
+    .hero {
+        background-color: #F8EDF0;
+    }
+    
+    .hero-inner {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .hero-sweet {
+        font-size: 10px;
+        font-weight: 300px;
+    }
+    
+    .hero-text-box {
+        width: 505px;
+    }
+    
+    .hero-h1 {
+        width: 465px;
+    }
+    
+    .hero-title {
+        font-size: 47px;
+        font-weight: 300;
+        font-family: Fredoka;
+    }
+    
+    .hero-p {
+        width: 465px;
+        padding-top: 40px;
+    }
+    
+    .hero-text {
+        font-size: 15px;
+        color: #7c7172;
+    }
+    
+    .hero-btn {
+        width: 115px;
+        height: 40px;
+        background-color: #D23166;
+        color: #fafafa;
+        border-radius: 5px;
+        border: 2px solid #D23166;
+        margin-top: 45px;
+    }
+    .hero-image{
+        width: 500px;
+    }
+}
