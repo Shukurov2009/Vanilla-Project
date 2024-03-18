@@ -1,0 +1,79 @@
+.product-inner {
+    display: flex;
+    align-items: center;
+}
+
+.product-big-box {
+    margin-left: 80px;
+}
+
+.product-box-2-text {
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.product-mini-text {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.product-mini-text-2 {
+    margin-top: 15px;
+    font-family: Hind Madurai;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.product-strong {
+    margin-top: 20px;
+}
+
+.product-mini-mini-box {
+    display: flex;
+    align-items: center;
+}
+
+.product-mini-text-3 {
+    margin-left: 10px;
+    font-family: Hind Madurai;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    text-decoration: line-through;
+}
+
+.product-btn {
+    background: #D64374;
+    width: 165px;
+    height: 49px;
+    top: 3311px;
+    left: 936px;
+    border-radius: 5px;
+    border: 2px solid #D64374;
+    transition: .1s;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Roboto;
+}
+
+.product-btn:hover {
+    background: transparent;
+    border: 2px solid #D64374;
+    color: #D64374;
+}

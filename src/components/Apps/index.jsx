@@ -10,7 +10,7 @@ import appStore from "../../assets/img/appStore.png"
 export const Apps = () => {
   return (
     <>
-    <section>
+    <section className='apps'>
         <div className="container">
             <div className="apps-inner">
                 <div className="apps-box">
