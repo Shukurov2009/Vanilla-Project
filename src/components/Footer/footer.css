@@ -126,9 +126,18 @@
     border-radius: 5px;
     border: 2px solid #d64374;
     background-color: #d64374;
+    border: 2px solid #d64374;
     color: #fff;
     font-family: Roboto;
     font-size: 20px;
+    transition: .1s;
+}
+
+.footer-newsletter-btn:hover {
+    border: 2px solid #d64374;
+    border: 2px solid #d64374;
+    background-color: transparent;
+    color: #d64374;
 }
 
 .footer-newsletter-icon-box {

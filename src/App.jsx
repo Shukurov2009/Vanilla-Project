@@ -8,6 +8,7 @@ import { Oatmea } from "./components/Oatmea";
 import { Input } from "./components/Input"
 import { Footer } from "./components/Footer"
 import { SecondProducts } from "./components/SecondProduct"
+import { ThirtProducts } from "./components/ThirtProduct"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Hero/>
       <Services/>
       <Oatmea/>
+      <ThirtProducts/>
       <SecondProducts/>
       <Products/>
       <Product2/>

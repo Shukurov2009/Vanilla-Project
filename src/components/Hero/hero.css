@@ -46,6 +46,13 @@
     border-radius: 5px;
     border: 2px solid #D23166;
     margin-top: 55px;
+    transition: .1s;
+}
+
+.hero-btn:hover {
+    background-color: transparent;
+    color: #D23166;
+    border: 2px solid #D23166;
 }
 
 @media(max-width:1150px){
