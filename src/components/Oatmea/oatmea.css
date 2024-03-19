@@ -8,9 +8,9 @@
     justify-content: space-between;
 }
 
-.oatmea-box {}
+/* .oatmea-box {}
 
-.oatmea-text-box {}
+.oatmea-text-box {} */
 
 .oatmea-title-box {
     width: 360px;
@@ -58,4 +58,131 @@
     color: #D64374;
 }
 
-.oatmea-img {}
+/* .oatmea-img {} */
+
+@media(max-width:1000px){
+    .oatmea {
+        background-color: #F8EDF0;
+    }
+    
+    .oatmea-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    /* .oatmea-box {}
+    
+    .oatmea-text-box {} */
+    
+    .oatmea-title-box {
+        width: 360px;
+    }
+    
+    .oatmea-title {
+        font-family: Hind Madurai;
+        font-size: 30px;
+        font-weight: 500;
+        color: #150101;
+    }
+    
+    .oatmea-p-box {
+        width: 342px;
+        padding-top: 20px;
+    }
+    
+    .oatmea-text {
+        font-family: Roboto;
+        font-size: 10px;
+        font-weight: 300;
+        color: #705f61;
+    }
+    
+    .oatmea-btn-box {
+        padding-top: 25px;
+    }
+    
+    .oatmea-btn {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 2px solid #5f2a3c;
+        background-color: #D64374;
+        color: white;
+        font-size: 10px;
+        font-family: Roboto;
+        transition: .1s;
+    }
+    
+    .oatmea-btn:hover {
+        background-color: transparent;
+        color: #D64374;
+    }
+    
+    .oatmea-img {
+        width: 50%;
+        height: 30%px;
+    }
+}
+
+@media(max-width:660px){
+    .oatmea {
+        background-color: #F8EDF0;
+    }
+    
+    .oatmea-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    /* .oatmea-box {}
+    
+    .oatmea-text-box {} */
+    
+    .oatmea-title-box {
+        width: 360px;
+    }
+    
+    .oatmea-title {
+        font-family: Hind Madurai;
+        font-size: 25px;
+        font-weight: 400;
+        color: #150101;
+    }
+    
+    .oatmea-p-box {
+        width: 342px;
+        padding-top: 20px;
+    }
+    
+    .oatmea-text {
+        font-family: Roboto;
+        font-size: 7px;
+        width: 200px;
+        color: #705f61;
+    }
+    
+    .oatmea-btn-box {
+        padding-top: 25px;
+    }
+    
+    .oatmea-btn {
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 2px solid #5f2a3c;
+        background-color: #D64374;
+        color: white;
+        font-size: 7px;
+        font-family: Roboto;
+        transition: .1s;
+    }
+    
+    .oatmea-btn:hover {
+        background-color: transparent;
+        color: #D64374;
+    }
+    
+    .oatmea-img {
+        display: none;
+    }
+}

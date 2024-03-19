@@ -27,7 +27,7 @@ export const Oatmea = () => {
                             </button>
                             </div>
                         </div>
-                        <img src={oatmeaimg} alt="" className="oatmea-img" />
+                        <img src={oatmeaimg} alt="" className="oatmea-img" width={600} height={600}/>
                     </div>
                 </div>
             </section>

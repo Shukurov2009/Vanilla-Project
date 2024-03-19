@@ -39,61 +39,165 @@
     font-weight: 400px;
 }
 
-.services-card-2-title {
-    font-size: 20px;
-    font-family: Hind Madurai;
-    font-weight: 700px;
-    margin-top: 25px;
-}
-
 .services-card-2-text-box {
     width: 230px;
     padding-top: 18px;
-}
-
-.services-card-2-text {
-    padding-left: 35px;
-    font-family: Hind Madurai;
-    font-weight: 400px;
-}
-
-.services-card-3-title {
-    font-size: 20px;
-    font-family: Hind Madurai;
-    font-weight: 700px;
-    margin-top: 25px;
 }
 
 .services-card-3-text-box {
     width: 230px;
     padding-top: 18px;
 }
-
-.services-card-3-text {
-    padding-left: 35px;
-    font-family: Hind Madurai;
-    font-weight: 400px;
-}
-
-.services-card-4-title {
-    font-size: 20px;
-    font-family: Hind Madurai;
-    font-weight: 700px;
-    margin-top: 25px;
-}
-
 .services-card-4-text-box {
     width: 230px;
     padding-top: 18px;
 }
-
-.services-card-4-text {
-    padding-left: 35px;
-    font-family: Hind Madurai;
-    font-weight: 400px;
-}
-
 .card:hover {
     border: none;
     box-shadow: 0 0 20px 20px #80808033;
+}
+
+@media(max-width:1000px) {
+    .services-inner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .card {
+        width: 200px;
+        height: 170px;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #0000002f;
+        transition: .2s;
+    }
+    
+    .services-card-1-title {
+        font-size: 10px;
+        font-family: Hind Madurai;
+        margin-top: 15px;
+    }
+    
+    .services-card-1-text-box {
+        width: 200px;
+        padding-top: 10px;
+    }
+    
+    .services-card-1-text {
+        padding-left: 30px;
+        font-family: Hind Madurai;
+        font-weight: 300px;
+    }
+    .services-card-1{
+        width: 40px;
+        height: 40px;
+    }
+    .services-card-2{
+        width: 40px;
+        height: 40px;
+    }
+    .services-card-3{
+        width: 40px;
+        height: 40px;
+    }
+    .services-card-4{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .services-card-2-text-box {
+        width: 200px;
+        padding-top: 10px;
+    }
+    .services-card-3-text-box {
+        width: 200px;
+        padding-top: 10px;
+    }
+    .services-card-4-text-box {
+        width: 200px;
+        padding-top: 10px;
+    }
+    .card:hover {
+        border: none;
+        box-shadow: 0 0 20px 20px #80808033;
+    }
+}
+
+@media(max-width:810px) {
+    .services-inner {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .card {
+        width: 20%;
+        height: 15%;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #0000002f;
+        transition: .2s;
+    }
+    
+    .services-card-1-title {
+        font-size: 8px;
+        font-family: Hind Madurai;
+        margin-top: 10%;
+    }
+    
+    .services-card-1-text-box {
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .services-card-1-text {
+        padding-left: 10px;
+        font-family: Hind Madurai;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .services-card-1{
+        width: 30px;
+        height: 30px;
+    }
+    .services-card-2{
+        width: 30px;
+        height: 30px;
+    }
+    .services-card-3{
+        width: 30px;
+        height: 30px;
+    }
+    .services-card-4{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .services-card-4-title {
+        font-size: 8px;
+        font-family: Hind Madurai;
+        margin-top: 15px;
+    }
+    
+    .card:hover {
+        border: none;
+        box-shadow: 0 0 20px 20px #80808033;
+    }
 }
