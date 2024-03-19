@@ -20,13 +20,13 @@ export const Footer = () => {
                             <ul className="footer-first-box">
                                 <div className="footer-first-box-text-box">
                                     <p className="footer-first-box-text">
-                                        Some food has looked so awful that it's looked
-                                        like something that the dog's brought home.
+                                    Ba'zi taomlar shunchalik dahshatli ko'rinishga egaki, u ko'rinadi
+                                     it uyga olib kelgan narsa kabi.
                                     </p>
                                 </div>
                                 <div className="footer-first-box-link-box">
                                     <a href="#" className="footer-first-box-link">
-                                        Follow Us
+                                    Ortimizdan yuring
                                     </a>
                                 </div>
                             </ul>
@@ -43,7 +43,7 @@ export const Footer = () => {
                                 </li>
                                 <li className="footer-first-item">
                                     <a href="#" className="footer-first-link">
-                                        Product
+                                    Mahsulot
                                     </a>
                                 </li>
                                 <li className="li footer-first-item">
@@ -53,17 +53,17 @@ export const Footer = () => {
                                 </li>
                                 <li className="li footer-first-item">
                                     <a href="#" className="footer-first-link">
-                                        Pricing
+                                    Narxlash
                                     </a>
                                 </li>
                                 <li className="li footer-first-item">
                                     <a href="#" className="footer-first-link">
-                                        Testimonials
+                                    Guvohlar
                                     </a>
                                 </li>
                                 <li className="li footer-first-item">
                                     <a href="#" className="footer-first-link">
-                                        Contact Us
+                                    Biz bilan bog'lanish
                                     </a>
                                 </li>
                             </ul>
@@ -72,43 +72,43 @@ export const Footer = () => {
                             <ul className="footer-second-list">
                                 <li className="footer-second-item">
                                     <a href="#" className="footer-second-link">
-                                        Delivery Information
+                                    Yetkazib berish haqida ma'lumot
                                     </a>
                                 </li>
                                 <li className="footer-second-item">
                                     <a href="#" className="footer-second-link">
-                                        Privacy Policy
+                                    Maxfiylik siyosati
                                     </a>
                                 </li>
                                 <li className="footer-second-item">
                                     <a href="#" className="footer-second-link">
-                                        Terms & Condition
+                                    Shartlar va shartlar
                                     </a>
                                 </li>
                                 <li className="footer-second-item">
                                     <a href="#" className="footer-second-link">
-                                        Search Terms
+                                    Qidiruv shartlari
                                     </a>
                                 </li>
                                 <li className="footer-second-item">
                                     <a href="#" className="footer-second-link">
-                                        Order & Return
+                                    Buyurtma va qaytarish
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div className="newsletter-box">
                             <h3 className="footer-newsletter-title">
-                                Newsletter
+                            Axborot byulleteni
                             </h3>
                             <div className="inp-and-btn">
                                 <input type="email" className="footer-newsletter-inp" placeholder="Your Email"/>
                                 <button className="footer-newsletter-btn">
-                                    Subcribe
+                                Obuna boʻling
                                 </button>
                             </div>
                             <div className="footer-newsletter-icon-box">
-                                <img src={p} alt="" className="newsltter-pp" />
+                                <img src={p} alt="" className="newsltter-pp" width={20} height={20}/>
                                 <img src={master} alt="" className="newsltter-pp" />
                                 <img src={visa} alt="" className="newsltter-pp" />
                             </div>
