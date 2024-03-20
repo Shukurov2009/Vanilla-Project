@@ -34,7 +34,7 @@ export const Header = () => {
                                 </li>
                                 <li className="header-item">
                                     <a href="#" className="header-link">
-                                        Biz biln bog'lanish
+                                        Biz bilan bog'lanish
                                     </a>
                                 </li>
                             </ul>
